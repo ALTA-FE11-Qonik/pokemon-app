@@ -16,7 +16,7 @@ const Header: React.FC<{}> = () =>{
                         placeholder="Search Pokemon by name..."
                         className="w-full border-2 border-white-200 rounded py-2 px-4 md:w-72"
                         value={searchQuery}
-                        onCharge={(e) => setSearchQuery(e.target.value)}
+                        onChange={(e: any) => setSearchQuery(e.target.value)}
                     />
                 </div>
             </div>
